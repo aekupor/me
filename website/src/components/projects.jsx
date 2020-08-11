@@ -1,15 +1,30 @@
 import React, { Component } from 'react'
 import '../css/project.css'
+import logo from '../logo.svg'
 
 export default class Projects extends Component {
   render() {
     return (
       <div>
-        <h2>My projects</h2>
+        <div>
+          <h2>My projects</h2>
+        </div>
 
-        <span className="project">This is my first project.</span>
-        <span className="project">This is my second project.</span>
-        <span className="project">This is my third project.</span>
+        <div class="card">
+          <img class="logo" src={logo} alt="Logo" />
+          <div class="container">
+            <h4><b>Project 1</b></h4>
+            <p>More about project</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="logo" src={logo} alt="Logo" />
+          <div class="container">
+            <h4><b>Project 2</b></h4>
+            <p>More about project</p>
+          </div>
+        </div>
       </div>
     )
   }
