@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import '../css/buttons.css'
 
 export default class Introduction extends Component {
   render() {
@@ -9,10 +10,13 @@ export default class Introduction extends Component {
 
         <div>
           <p>
-            //TODO: when click, says "Failed - no file"
+            {
+              //TODO: when click, says "Failed - no file"
+            }
             <a href="./../images/Resume.pdf" class="button" download="Ashlee_Kupor_Resume">Download Resume</a>
           </p>
        </div>
+       <button class="buttons">Hey There</button>
       </div>
     )
   }

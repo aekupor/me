@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../css/project.css'
+import '../css/buttons.css'
 import logo from '../logo.svg'
 
 export default class Projects extends Component {
@@ -58,11 +59,11 @@ export default class Projects extends Component {
             </div>
 
           </div>
-          
+
         </div>
 
         <div>
-          <button onClick={this.viewMoreProjects}>
+          <button class="buttons" onClick={this.viewMoreProjects}>
             View more projects
           </button>
         </div>
