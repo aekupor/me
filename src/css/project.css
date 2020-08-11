@@ -7,11 +7,17 @@
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+  position: relative;
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover .more_details {
+  visibility: visible;
+  opacity: 1;
 }
 
 /* Add some padding inside the card container */
@@ -57,4 +63,18 @@ body {
     display: block;
     margin-bottom: 20px;
   }
+}
+
+.more_details {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  height: inherit;
+  transition: opacity .2s, visibility .2s;
 }

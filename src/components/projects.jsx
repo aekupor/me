@@ -25,6 +25,11 @@ export default class Projects extends Component {
               <div class="container">
                 <h4><b>Project 1</b></h4>
                 <p>More about project</p>
+
+                <div class="more_details">
+                  <p>This image looks super neat.</p>
+                </div>
+
               </div>
             </div>
           </div>
@@ -35,6 +40,11 @@ export default class Projects extends Component {
               <div class="container">
                 <h4><b>Project 2</b></h4>
                 <p>More about project</p>
+
+                <div class="more_details">
+                  <p>This image looks super neat.</p>
+                </div>
+
               </div>
             </div>
           </div>
@@ -45,6 +55,11 @@ export default class Projects extends Component {
               <div class="container">
                 <h4><b>Project 3</b></h4>
                 <p>More about project</p>
+
+                <div class="more_details">
+                  <p>This image looks super neat.</p>
+                </div>
+                
               </div>
             </div>
           </div>
@@ -55,6 +70,10 @@ export default class Projects extends Component {
               <div class="container">
                 <h4><b>Project 4</b></h4>
                 <p>More about project</p>
+
+                <div class="more_details">
+                  <p>This image looks super neat.</p>
+                </div>
               </div>
             </div>
 
