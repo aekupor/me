@@ -3,6 +3,12 @@ import '../css/project.css'
 import logo from '../logo.svg'
 
 export default class Projects extends Component {
+  //open github
+  viewMoreProjects() {
+    const url = 'https://github.com/aekupor';
+    window.open(url, '_blank');
+  }
+
   render() {
     return (
       <div>
@@ -47,6 +53,11 @@ export default class Projects extends Component {
               </div>
             </div>
           </div>
+        </div>
+        <div>
+          <button onClick={this.viewMoreProjects}>
+            View more projects
+          </button>
         </div>
       </div>
     )
