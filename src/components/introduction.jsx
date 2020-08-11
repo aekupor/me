@@ -6,7 +6,13 @@ export default class Introduction extends Component {
       <div>
         <h1>Hi! <br />I'm Ashlee</h1>
         <h1>I love building<br /> THINGS !!</h1>
-        <p><a href="https://www.google.com" target="_blank" rel="noopener noreferrer">View Resume</a></p>
+
+        <div>
+          <p>
+            //TODO: when click, says "Failed - no file"
+            <a href="./../images/Resume.pdf" class="button" download="Ashlee_Kupor_Resume">Download Resume</a>
+          </p>
+       </div>
       </div>
     )
   }
