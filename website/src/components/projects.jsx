@@ -17,6 +17,7 @@ export default class Projects extends Component {
         </div>
 
         <div class="row">
+
           <div class="column">
             <div class="card">
               <img class="logo" src={logo} alt="Logo" />
@@ -26,6 +27,7 @@ export default class Projects extends Component {
               </div>
             </div>
           </div>
+
           <div class="column">
             <div class="card">
               <img class="logo" src={logo} alt="Logo" />
@@ -35,6 +37,7 @@ export default class Projects extends Component {
               </div>
             </div>
           </div>
+
           <div class="column">
             <div class="card">
               <img class="logo" src={logo} alt="Logo" />
@@ -44,6 +47,7 @@ export default class Projects extends Component {
               </div>
             </div>
           </div>
+
           <div class="column">
             <div class="card">
               <img class="logo" src={logo} alt="Logo" />
@@ -52,13 +56,17 @@ export default class Projects extends Component {
                 <p>More about project</p>
               </div>
             </div>
+
           </div>
+          
         </div>
+
         <div>
           <button onClick={this.viewMoreProjects}>
             View more projects
           </button>
         </div>
+
       </div>
     )
   }
