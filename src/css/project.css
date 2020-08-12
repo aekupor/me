@@ -37,7 +37,11 @@ img {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+<<<<<<< HEAD
   padding-top: 65px;
+=======
+    padding-top: 65px; 
+>>>>>>> 88b64fc15b161dd5f2f106e13f6068337349e0cd
 }
 
 /* Float four columns side by side */

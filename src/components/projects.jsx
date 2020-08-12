@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import '../css/project.css'
 import '../css/buttons.css'
 import logo from '../logo.svg'
+import Fade from 'react-reveal/Fade';
 
 export default class Projects extends Component {
   //open github
@@ -17,6 +18,7 @@ export default class Projects extends Component {
           <h2>My projects</h2>
         </div>
 
+        <Fade bottom>
         <div class="row">
 
           <div class="column">
@@ -80,12 +82,15 @@ export default class Projects extends Component {
           </div>
 
         </div>
+        </Fade>
 
+        <Fade bottom>
         <div>
           <button class="buttons" onClick={this.viewMoreProjects}>
             View more projects
           </button>
         </div>
+        </Fade>
 
       </div>
     )

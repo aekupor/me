@@ -10,7 +10,11 @@ class App extends Component {
     return (
       <div>
         <Navbar />
+<<<<<<< HEAD
         <section id="home"> <Introduction /></section>
+=======
+  			<section id="home"> <Introduction /></section>
+>>>>>>> 88b64fc15b161dd5f2f106e13f6068337349e0cd
         <section id="about"> <About /></section>
         <section id="projects"> <Projects /></section>
       </div>
