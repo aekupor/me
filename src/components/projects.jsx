@@ -59,7 +59,7 @@ export default class Projects extends Component {
                 <div class="more_details">
                   <p>This image looks super neat.</p>
                 </div>
-                
+
               </div>
             </div>
           </div>
