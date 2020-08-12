@@ -3,14 +3,16 @@ import './App.css';
 import Introduction from './components/introduction'
 import About from './components/about'
 import Projects from './components/projects'
+import Navbar from './components/navbar'
 
 class App extends Component {
   render() {
     return (
       <div>
-  			<Introduction></Introduction>
-        <About></About>
-        <Projects></Projects>
+        <Navbar />
+  			<Introduction />
+        <About />
+        <Projects />
       </div>
     );
   }
