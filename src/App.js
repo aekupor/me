@@ -10,9 +10,9 @@ class App extends Component {
     return (
       <div>
         <Navbar />
-  			<Introduction />
-        <About />
-        <Projects />
+  			<section id="home"> <Introduction /></section>
+        <section id="about"> <About /></section>
+        <section id="projects"> <Projects /></section>
       </div>
     );
   }
